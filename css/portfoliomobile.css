@@ -1,0 +1,55 @@
+
+
+/* Large tablets and smaller laptops (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .main-heading {
+    font-size: 14vw; /* Reduce heading size */
+    line-height: 1; /* Adjust line height */
+  }
+
+  .scroll-button {
+    margin-top: 80px; /* Reduce spacing */
+    font-size: 1.3rem; /* Adjust font size */
+    padding: 10px 12px; /* Adjust button padding */
+  }
+
+  .section {
+    padding: 80px 15px; /* Adjust section padding */
+  }
+}
+
+/* Tablets and medium devices (max-width: 768px) */
+@media (max-width: 768px) {
+  .main-heading {
+    font-size: 18vw; /* Adjust heading size for tablets */
+    line-height: 1; /* Maintain readability */
+  }
+
+  .scroll-button {
+    margin-top: 60px; /* Reduce spacing */
+    font-size: 1.2rem; /* Smaller button text */
+    padding: 8px 10px; /* Adjust button padding */
+  }
+
+  .section {
+    padding: 60px 10px; /* Reduce section padding */
+  }
+}
+
+/* Mobile phones (max-width: 480px) */
+@media (max-width: 480px) {
+  .main-heading {
+    font-size: 12vw; /* Smaller heading for mobile */
+    line-height: 1.1; /* Adjust line spacing */
+  }
+
+  .scroll-button {
+    margin-top: 40px; /* Reduce spacing further */
+    font-size: 1rem; /* Smaller button text */
+    padding: 6px 8px; /* Compact button padding */
+  }
+
+  .section {
+    padding: 50px 10px; /* Compact section padding */
+  }
+}

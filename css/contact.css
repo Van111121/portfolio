@@ -1,0 +1,177 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 80vh;
+  width: 100%;
+  padding: 0px;
+}
+
+.container {
+  max-width: 2000px;
+  line-height: 0.2;
+}
+
+/* Main Button/Text Link */
+.texts {
+  text-decoration: none;
+  font-size: 5.5rem;
+  letter-spacing: 2px;
+  font-weight: 300;
+  color: var(--button);
+  text-transform: uppercase;
+  font-family: "Grandslang b side", serif;
+
+  padding: 15px 40px;
+  outline: none;
+  border: none;
+  background-color: var(--bg-border);
+  border-radius: 200px;
+  transition: 1s ease-in-out;
+}
+
+/* Main Heading */
+.main-heading {
+  font-size: 6.5rem;
+  font-weight: 500;
+  font-family: "Grandslang b side", serif;
+  line-height: 1;
+  margin-top: 10px;
+}
+
+.main-heading span {
+  display: block;
+}
+
+/* Subheading */
+.subheading {
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: "Grandslang b side", serif;
+  line-height: 1;
+  margin-top: 40px;
+}
+
+.business {
+  letter-spacing: 2px;
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-style: normal;
+}
+
+.subheading a {
+  text-decoration: none;
+}
+
+/* Social Icons */
+.social {
+  padding: 10px;
+}
+
+.facebook,
+.instagram,
+.tiktok {
+  transition: ease-in 0.3s;
+}
+
+.facebook:hover,
+.instagram:hover,
+.tiktok:hover {
+  width: 60px;
+  transition: ease-in 0.3s;
+}
+
+/* ============================= */
+/* RESPONSIVE BREAKPOINTS BELOW */
+/* ============================= */
+
+/* 1440px and below */
+@media (max-width: 1440px) {
+  .texts {
+    font-size: 4.5rem;
+    padding: 15px 35px;
+  }
+
+  .main-heading {
+    font-size: 5.5rem;
+  }
+
+  .subheading {
+    font-size: 1.8rem;
+  }
+
+  .business {
+    font-size: 2.5rem;
+  }
+}
+
+/* 1024px and below */
+@media (max-width: 1024px) {
+  .texts {
+    font-size: 3.5rem;
+    padding: 12px 30px;
+  }
+
+  .main-heading {
+    font-size: 4.5rem;
+  }
+
+  .subheading {
+    font-size: 1.6rem;
+  }
+
+  .business {
+    font-size: 2.2rem;
+  }
+}
+
+/* 768px and below */
+@media (max-width: 768px) {
+  .texts {
+    font-size: 2.5rem;
+    padding: 10px 25px;
+  }
+
+  .main-heading {
+    font-size: 3.5rem;
+  }
+
+  .subheading {
+    font-size: 1.3rem;
+  }
+
+  .business {
+    font-size: 2rem;
+  }
+
+  .social {
+    padding: 8px;
+  }
+}
+
+/* 425px and below */
+@media (max-width: 425px) {
+  .texts {
+    font-size: 1.8rem;
+    padding: 8px 20px;
+  }
+
+  .main-heading {
+    font-size: 2.5rem;
+  }
+
+  .subheading {
+    font-size: 1rem;
+  }
+
+  .business {
+    font-size: 1.5rem;
+  }
+
+  .social {
+    padding: 5px;
+  }
+}

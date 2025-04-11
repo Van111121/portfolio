@@ -1,0 +1,134 @@
+.sectionfooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding: 100px;
+}
+
+.containerfooter {
+  max-width: 2000px;
+}
+
+.footer-heading {
+  font-size: 11rem;
+  font-weight: 500;
+  font-family: "Grandslang b side";
+  line-height: 1;
+  margin-bottom: 90px;
+}
+
+.footer-heading span {
+  display: block;
+}
+
+.buttoncontract {
+  text-decoration: none;
+  font-size: 3rem;
+  letter-spacing: 2px;
+  font-weight: 300;
+  color: var(--button);
+  text-transform: uppercase;
+  font-family: "Grandslang b side";
+  padding: 15px 40px;
+  outline: none;
+  border: none;
+  background-color: var(--bg-border);
+  border-radius: 200px;
+  transition: 1s ease-in-out;
+}
+
+.soc-icon {
+  margin-top: 40px;
+}
+
+.foot-subheading a {
+  text-decoration: none;
+}
+
+.buttoncontract {
+  font-weight: bold;
+  font-style: normal;
+}
+
+.social {
+  padding: 10px;
+}
+
+.facebook,
+.instagram,
+.tiktok {
+  transition: ease-in 0.3s;
+}
+
+.facebook:hover,
+.instagram:hover,
+.tiktok:hover {
+  width: 60px;
+  transition: ease-in 0.3s;
+}
+
+/* Media Queries for Responsive Design */
+
+/* Large tablets and smaller laptops (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .footer-heading {
+    font-size: 8rem;
+    margin-bottom: 70px;
+  }
+
+  .buttoncontract {
+    font-size: 2.5rem;
+    padding: 10px 30px;
+  }
+
+  .soc-icon {
+    margin-top: 30px;
+  }
+}
+
+/* Tablets and medium devices (max-width: 768px) */
+@media (max-width: 768px) {
+  .sectionfooter {
+    flex-direction: column;
+    padding: 50px;
+  }
+
+  .footer-heading {
+    font-size: 6rem;
+    margin-bottom: 50px;
+  }
+
+  .buttoncontract {
+    font-size: 2rem;
+    padding: 10px 20px;
+  }
+
+  .soc-icon {
+    margin-top: 20px;
+  }
+}
+
+/* Mobile phones (max-width: 480px) */
+@media (max-width: 480px) {
+  .footer-heading {
+    font-size: 4rem;
+    margin-bottom: 30px;
+  }
+
+  .buttoncontract {
+    font-size: 1.5rem;
+    padding: 8px 15px;
+  }
+
+  .soc-icon {
+    margin-top: 15px;
+  }
+
+  .facebook:hover,
+  .instagram:hover,
+  .tiktok:hover {
+    width: 50px;
+  }
+}

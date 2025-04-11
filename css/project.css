@@ -1,0 +1,192 @@
+.section-body-paddings {
+    padding: 1px 20px;
+  }
+ 
+ 
+
+
+
+
+ .titlehead{
+  font-size: 150px;
+  text-align: center;
+  font-family: "Grandslang b side";
+ }
+
+
+
+  
+
+  
+  .containerss {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 60px;
+  }
+  
+  .containerzs {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  
+  .project-card {
+    position: relative;
+    border-radius: 24px;
+    overflow: hidden;
+    transition: transform 0.5s;
+  }
+  
+  .project-card:hover {
+    transform: scale(1.05);
+  }
+  
+  video {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    display: block;
+    filter: blur(4px);
+    opacity: 0.8;
+    transition: filter 0.4s ease, opacity 0.4s ease;
+  }
+  
+  .project-card:hover video {
+    filter: blur(0);
+    opacity: 1;
+  }
+  
+  .custom-cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 120px;
+    height: 50px;
+    background: white;
+    color: black;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    pointer-events: none;
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.2s ease;
+    z-index: 999999;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .tags, .content-bottom {
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    transition: opacity 0.3s ease;
+  }
+
+  .tags {
+    bottom: 80px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    opacity: 0;
+  }
+
+  .project-card:hover .tags {
+    opacity: 1;
+  }
+
+  .tag {
+    border: solid;
+    padding: 10px 12px;
+    border-radius: 50px;
+    border-color: wheat;
+    color: wheat;
+    font-size: 14px;
+    white-space: nowrap;
+    font-family: "Grandslang b side";
+  }
+
+
+  .content-bottom {
+    bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 54px;
+    color: wheat;
+    
+  }
+
+  .title {
+    font-weight: bold;
+    font-size: 25px;
+    font-family: "Grandslang b side";
+  }
+
+  .subtitle {
+    font-size: 15px;
+    font-family: "Grandslang b side";
+  }
+
+
+  @media (max-width: 1024px) {
+    .titlehead {
+        font-size: 100px;
+    }
+
+    .content-bottom {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .titlehead {
+        font-size: 80px;
+    }
+
+    .containerzs {
+        gap: 20px;
+    }
+
+    .content-bottom {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .titlehead {
+        font-size: 60px;
+    }
+
+    .containerzs {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .content-bottom {
+        flex-direction: column;
+        font-size: 20px;
+        align-items: flex-start;
+        gap: 4px;
+    }
+}

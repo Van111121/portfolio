@@ -1,0 +1,64 @@
+/* Base Section Layout */
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding: 100px 20px; /* Responsive horizontal padding */
+}
+
+/* Main Container */
+.container {
+  max-width: 2000px;
+  width: 100%;
+}
+
+/* Main Heading */
+.main-heading {
+  font-size: 20vw; /* Responsive font size based on viewport */
+  font-weight: 500;
+  font-family: "Grandslang b side", serif;
+  line-height: 0.9;
+  word-break: break-word;
+}
+
+.main-heading span {
+  display: block;
+}
+
+/* Scroll Button */
+.scroll-button {
+  margin-top: 100px;
+  padding: 12px 15px;
+  background-color: transparent;
+  color: var(--text-color);
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: "Grandslang b side", serif;
+  cursor: none;
+  border: none;
+}
+
+/* Scroll Button Hover (optional) */
+/*
+.scroll-button:hover {
+  background-color: #0056b3;
+  box-shadow: 0 4px 15px rgba(0, 123, 255, 0.5);
+  transform: scale(1.05);
+}
+*/
+
+/* Fade In Animation */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+

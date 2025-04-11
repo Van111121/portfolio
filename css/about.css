@@ -1,0 +1,321 @@
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 80vh;
+    width: 100%;
+    padding: 0px;
+  }
+
+  .container {
+    max-width: 2000px;
+    line-height: 0.2;
+  }
+
+  .top-text {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: "Grandslang b side";
+    margin-bottom: 10px;
+  }
+
+
+
+
+
+
+  
+
+  .main-heading {
+    font-size: 11rem;
+    font-weight: 500;
+    font-family: "Grandslang b side";
+    line-height: .9;
+    margin-bottom: 90px;
+
+
+  }
+
+  .main-heading span {
+    display: block;
+  }
+
+  .subheading {
+    font-size: 5.0rem;
+    font-style: italic;
+    /* margin-top: 1px; */
+  }
+
+  .business {
+    font-weight: bold;
+    font-style: normal;
+  }
+
+
+  .scroll-button {
+    margin-top: 150px;
+    /* padding: 12px 15px; */
+    background: var(--bg-color);
+    color: var(--text-color);
+    font-size: 1.5rem;
+    font-weight: 500;
+    /* text-transform: uppercase; */
+    /* border: none; */
+    /* border-radius: 25px; */
+    /* cursor: pointer; */
+    cursor: none;
+    background-color: transparent;
+    font-family: "Grandslang b side";
+
+  }
+
+
+  /* .scroll-button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.5);
+    transform: scale(1.05);
+  } */
+
+  /* .scroll-button:focus {
+    outline: none;
+  } */
+
+
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .main-heading {
+      font-size: 3rem;
+    }
+
+    .subheading {
+      font-size: 1rem;
+    }
+
+    .scroll-button {
+      font-size: 0.9rem;
+      padding: 10px 20px;
+    }
+
+    .page-2-text {
+      font-size: 1.2rem;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .intro-section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 90px;
+    flex-wrap: wrap;
+  }
+
+  .intro-image {
+    width: 1000px;
+    height: 700px;
+    background-color: #222;
+    border-radius: 50px;
+    margin-bottom: 20px;
+  }
+
+  .intro-text {
+    flex: 1;
+    margin-left: 150px;
+    max-width: 900px;
+  }
+
+  .intro-text h2 {
+    font-size: 6.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .intro-text p {
+    font-size: 2.5rem;
+    line-height: 1.6;
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TIMELINE SLIDER */
+.titletimeline {
+  text-align: center;
+  font-size: 8.5rem;
+  font-family: "Grandslang b side";
+  margin-bottom: 80px;
+}
+
+.timeline-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.timeline-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 6px;
+  background-color: var(--bg-border);
+  /* transform: translateX(-50%); */
+  transition: ease-in 0.2s;
+}
+
+.timeline-item {
+  position: relative;
+  width: 50%;
+  padding: 40px 60px;
+}
+
+.timeline-item.left {
+  left: 0;
+  text-align: right;
+}
+
+.timeline-item.right {
+  left: 50%;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 28px;
+  height: 28px;
+  background-color: #fefefe;
+  border: 5px solid #333;
+  border-radius: 50%;
+  transition: ease-in 0.2s;
+  z-index: 10;
+}
+
+.timeline-item.left::before {
+  right: -14px;
+}
+
+.timeline-item.right::before {
+  left: -14px;
+}
+
+.timeline-content {
+  background-color: var(--bg-timeline);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  /* transition: ease-in 0.2s; */
+  font-size: 1.2rem;
+  line-height: 1.7;
+}
+
+.timeline-content:hover {
+  transform: scale(1.13);
+}
+
+.timeline-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.timeline-date {
+  font-size: 1rem;
+  color: var(--text-color);
+  margin-bottom: 15px;
+  transition: ease-in 0.1s;
+}
+
+@media screen and (max-width: 768px) {
+  .timeline-container::before {
+    left: 8px;
+  }
+
+  .timeline-item {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 15px;
+    text-align: left;
+  }
+
+  .timeline-item.left,
+  .timeline-item.right {
+    left: 0;
+  }
+
+  .timeline-item::before {
+    left: 0;
+    transform: translate(-50%, -50%);
+  }
+}
+
+
+
+.intro-image {
+  background: no-repeat url('/images/picturevan.jpg');
+  background-size: cover;
+  border-radius: 30px;
+
+  object-fit: cover;
+}
+

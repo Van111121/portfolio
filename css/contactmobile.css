@@ -1,0 +1,54 @@
+ 
+    @media (max-width: 1024px) {
+        .texts {
+          font-size: 4rem;
+          padding: 10px 30px;
+        }
+  
+        .main-heading {
+          font-size: 5rem;
+        }
+  
+        .subheading {
+          font-size: 1.5rem;
+        }
+  
+        .business {
+          font-size: 2.5rem;
+        }
+      }
+  
+   
+      @media (max-width: 600px) {
+        .texts {
+          font-size: 2.5rem;
+          padding: 8px 20px;
+        }
+  
+        .main-heading {
+          font-size: 3rem;
+        }
+  
+        .subheading {
+          font-size: 1.2rem;
+        }
+  
+        .business {
+          font-size: 1.8rem;
+        }
+  
+        .facebook,
+        .instagram,
+        .tiktok {
+          width: 30px;
+          height: 30px;
+          font-size: 1rem;
+        }
+  
+        .facebook:hover,
+        .instagram:hover,
+        .tiktok:hover {
+          width: 40px;
+          height: 40px;
+        }
+      }

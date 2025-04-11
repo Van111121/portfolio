@@ -1,0 +1,303 @@
+
+  .section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 80vh;
+    width: 100%;
+    padding: 0px;
+  }
+
+  .container {
+    max-width: 2000px;
+    line-height: 0.2;
+  }
+
+  .top-text {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: "Grandslang b side";
+    margin-bottom: 10px;
+  }
+
+
+
+
+
+
+  
+
+  .main-heading {
+    font-size: 11rem;
+    font-weight: 500;
+    font-family: "Grandslang b side";
+    line-height: .9;
+    margin-bottom: 90px;
+
+
+  }
+
+  .main-heading span {
+    display: block;
+  }
+
+  .subheading {
+    font-size: 5.0rem;
+    font-style: italic;
+    /* margin-top: 1px; */
+  }
+
+  .business {
+    font-weight: bold;
+    font-style: normal;
+  }
+
+
+  .scroll-button {
+    margin-top: 100px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--button);
+    text-transform: uppercase;
+    font-family: "Grandslang b side";
+
+    padding: 15px 40px;
+    outline: none;
+    border: none;
+    border-radius: 200px;
+    background-color: var(--bg-border);
+    transition: 1s ease-in-out;
+
+  }
+
+
+  .scroll-button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.5);
+    transform: scale(1.05);
+    transition: 1s ease-in-out;
+  }
+
+  .scroll-button:focus {
+    outline: none;
+  }
+
+  .view-buttons-container {
+    display: flex; /* Flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically if needed */
+    width: 100%; /* Full width */
+    margin-top: 50px; /* Spacing from above content */
+}
+
+.view-buttons {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--button);
+    text-transform: uppercase;
+    font-family: "Grandslang b side";
+    padding: 15px 40px;
+    outline: none;
+    border: none;
+    border-radius: 200px;
+    background-color: var(--bg-border);
+    transition: 1s ease-in-out;
+}
+
+.view-buttons:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.5);
+    transform: scale(1.05);
+    transition: 1s ease-in-out;
+}
+
+.view-buttons:focus {
+    outline: none;
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+    .view-buttons {
+        font-size: 1.3rem;
+        padding: 12px 36px;
+    }
+}
+
+@media (max-width: 768px) {
+    .view-buttons {
+        font-size: 1.1rem;
+        padding: 10px 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .view-buttons {
+        font-size: 1rem;
+        padding: 8px 20px;
+    }
+}
+
+  /* @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  } */
+
+  @media (max-width: 768px) {
+    .main-heading {
+      font-size: 3rem;
+    }
+
+    .subheading {
+      font-size: 1rem;
+    }
+
+    .scroll-button {
+      font-size: 0.9rem;
+      padding: 10px 20px;
+    }
+
+  }
+
+
+
+
+  .section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 80vh;
+    width: 100%;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 2000px;
+    line-height: 0.2;
+  }
+  
+  .top-text {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: "Grandslang b side";
+    margin-bottom: 10px;
+  }
+  
+  .main-heading {
+    font-size: 11rem;
+    font-weight: 500;
+    font-family: "Grandslang b side";
+    line-height: 0.9;
+    margin-bottom: 90px;
+  }
+  
+  .main-heading span {
+    display: block;
+  }
+  
+  .subheading {
+    font-size: 5rem;
+    font-style: italic;
+  }
+  
+  .business {
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  .scroll-button {
+    margin-top: 100px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--button);
+    text-transform: uppercase;
+    font-family: "Grandslang b side";
+    padding: 15px 40px;
+    outline: none;
+    border: none;
+    border-radius: 200px;
+    background-color: var(--bg-border);
+    transition: 1s ease-in-out;
+  }
+  
+  .scroll-button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.5);
+    transform: scale(1.05);
+    transition: 1s ease-in-out;
+  }
+  
+  .scroll-button:focus {
+    outline: none;
+  }
+  
+  .view-buttons-container {
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically if necessary */
+    width: 100%; /* Ensure it spans across the full width */
+    margin-top: 50px; /* Adjust spacing from the content above */
+  }
+  
+  .view-buttons {
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--button);
+    text-transform: uppercase;
+    font-family: "Grandslang b side";
+    padding: 15px 40px;
+    outline: none;
+    border: none;
+    border-radius: 200px;
+    background-color: var(--bg-border);
+    transition: 1s ease-in-out;
+  }
+  
+  .view-buttons:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.5);
+    transform: scale(1.05);
+    transition: 1s ease-in-out;
+  }
+  
+  .view-buttons:focus {
+    outline: none;
+  }
+  
+  @media (max-width: 768px) {
+    .main-heading {
+        font-size: 3rem;
+    }
+  
+    .subheading {
+        font-size: 1rem;
+    }
+  
+    .scroll-button {
+        font-size: 0.9rem;
+        padding: 10px 20px;
+    }
+  
+    .view-buttons {
+        font-size: 0.9rem;
+        padding: 10px 20px;
+    }
+  }

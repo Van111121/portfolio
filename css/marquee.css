@@ -1,0 +1,86 @@
+.containerz {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .scrollz {
+    white-space: nowrap;
+    margin: 0 2em;
+  }
+  
+  .scrollz div {
+    display: flex;
+    gap: 2em;
+  }
+  
+  .marquee {
+    font-size: 24em;
+    line-height: 1;
+    /* color: rgb(85, 80, 74); */
+    font-style: italic;
+    font-weight: 500;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+    font-family: "Grandslang b side";
+
+  }
+  
+  .dot{
+    font-size: 19em;
+    font-family: "Grandslang b side";
+  }
+
+
+
+
+  
+  .RightToLeft {
+    animation: RightToLeft 50s infinite linear;
+  }
+  
+  @keyframes  RightToLeft {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+
+
+
+
+
+
+    /* Responsive styles */
+    @media (max-width: 1024px) {
+      .marquee {
+        font-size: 12rem;
+      }
+
+      .dot {
+        font-size: 9rem;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .marquee {
+        font-size: 8rem;
+      }
+
+      .dot {
+        font-size: 6rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .marquee {
+        font-size: 5rem;
+      }
+
+      .dot {
+        font-size: 4rem;
+      }
+    }

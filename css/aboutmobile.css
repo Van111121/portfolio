@@ -1,0 +1,188 @@
+
+@media (max-width: 1440px) {
+    .main-heading {
+      font-size: 9rem;
+    }
+  
+    .intro-image {
+      width: 800px;
+      height: 600px;
+    }
+  
+    .intro-text h2 {
+      font-size: 5rem;
+    }
+  
+    .intro-text p {
+      font-size: 1.8rem;
+    }
+  
+    .titletimeline {
+      font-size: 7rem;
+    }
+  }
+ 
+
+
+  @media (max-width: 1024px) {
+    .main-heading {
+      font-size: 6rem;
+      margin-bottom: 60px;
+    }
+  
+    .intro-section {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .intro-image {
+      background: no-repeat url('/images/picturevan.jpg');
+      background-size: cover;
+      border-radius: 30px;
+    }
+  
+    .intro-text {
+      margin-left: 0;
+      margin-top: 30px;
+      padding: 0 20px;
+      max-width: 90%;
+    }
+  
+    .intro-text h2 {
+      font-size: 4rem;
+    }
+  
+    .intro-text p {
+      font-size: 1.5rem;
+    }
+  
+    .titletimeline {
+      font-size: 5.5rem;
+    }
+  
+    .timeline-item {
+      padding: 30px;
+    }
+  
+    .timeline-content {
+      font-size: 1rem;
+    }
+  
+    .timeline-title {
+      font-size: 1.5rem;
+    }
+  }
+
+
+
+  @media (max-width: 768px) {
+    .main-heading {
+      font-size: 3rem;
+      margin-bottom: 40px;
+    }
+  
+    .subheading {
+      font-size: 1.2rem;
+    }
+  
+    .scroll-button {
+      font-size: 1rem;
+      margin-top: 100px;
+    }
+  
+    .intro-section {
+      margin-top: 60px;
+    }
+  
+    .intro-text h2 {
+      font-size: 3rem;
+    }
+  
+    .intro-text p {
+      font-size: 1.2rem;
+    }
+  
+    .titletimeline {
+      font-size: 3.5rem;
+    }
+  
+    .timeline-content {
+      font-size: 0.9rem;
+    }
+  
+    .timeline-title {
+      font-size: 1.2rem;
+    }
+  
+    .foot-subheading {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .intro-image {
+      background: no-repeat url('/images/picturevan.jpg');
+      background-size: cover;
+      border-radius: 30px;
+      width: 100%;
+    }
+  }
+
+
+
+  @media (max-width: 425px) {
+    .main-heading {
+      font-size: 2.2rem;
+      line-height: 1.2;
+    }
+  
+    .intro-text h2 {
+      font-size: 2rem;
+    }
+  
+    .intro-text p {
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+  
+    .titletimeline {
+      font-size: 2.5rem;
+    }
+  
+    .timeline-content {
+      padding: 20px;
+      font-size: 0.85rem;
+    }
+  
+    .timeline-title {
+      font-size: 1rem;
+    }
+  
+    .scroll-button {
+      font-size: 0.85rem;
+      margin-top: 50px;
+    }
+  
+    .foot-subheading {
+      font-size: 1rem;
+    }
+  
+    .soc-container {
+      margin-top: 20px;
+    }
+  
+    .timeline-item {
+      padding: 20px;
+    }
+
+    .intro-image {
+      background: no-repeat url('/images/picturevan.jpg');
+      background-size: cover;
+      border-radius: 30px;
+      width: 100%;
+    }
+
+  }
+
+
+  
