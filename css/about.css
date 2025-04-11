@@ -312,7 +312,7 @@
 
 
 .intro-image {
-  background: no-repeat url('/images/picturevan.jpg');
+  background: no-repeat url('../images/picturevan.jpg');
   background-size: cover;
   border-radius: 30px;
 
